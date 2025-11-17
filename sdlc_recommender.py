@@ -11,10 +11,10 @@ with left:
 
     req_stability = st.slider("Requirements stability", 0, 10, 5)
     risk_level    = st.slider("Technical/Domain risk", 0, 10, 5)
-    safety_crit   = st.checkbox("Safety/Regulatory critical system?")
     client_avail  = st.slider("Client availability for frequent feedback", 0, 10, 6)
     deadline_rigid= st.slider("Deadline rigidity", 0, 10, 5)
     team_experience = st.slider("Team experience with domain", 0, 10, 5)
+    safety_crit   = st.checkbox("Safety/Regulatory critical system?")
     need_prototype   = st.checkbox("Is an early prototype essential?")
     reuse_assets     = st.checkbox("Significant reusable components exist?")
     parallel_test    = st.checkbox("Strong emphasis on early verification & validation? (V-model)")
@@ -54,3 +54,4 @@ with right:
         "reuse_assets": reuse_assets,
         "emphasis_on_VV": parallel_test
     })
+
