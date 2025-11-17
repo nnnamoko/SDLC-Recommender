@@ -10,11 +10,13 @@ Try the fully interactive version directly in your browser — no installation r
 
 🏷️ Badges
 <p align="left"> <img src="https://img.shields.io/badge/Python-3.10+-blue" /> <img src="https://img.shields.io/badge/Streamlit-Enabled-red" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen" /> <img src="https://img.shields.io/badge/License-MIT-yellow" /> </p>
+
 📁 Repository Contents
 File	Description
 sdlc_recommender.py	Main Streamlit application (interactive UI + logic).
 requirements.txt	Python dependencies needed to run the app locally.
 README.md	Project documentation.
+
 🧠 What This Tool Does
 
 The SDLC Recommender is an interactive teaching tool designed to help students understand how different SDLC methodologies apply to different types of software projects.
@@ -26,19 +28,24 @@ Based on these inputs, the tool recommends one of Waterfall, Incremental, Protot
 Each recommendation includes a justification explaining why the model fits the scenario — ideal for teaching and classroom discussion.
 
 🖥️ Run Locally
+
 1️⃣ Clone the repository
+
 git clone https://github.com/nnamoko/SDLC-Recommender.git
 cd SDLC-Recommender.git
 
 2️⃣ (Optional) Create a virtual environment
+
 python -m venv venv
 source venv/bin/activate     # macOS/Linux
 venv\Scripts\activate        # Windows
 
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 4️⃣ Run the app
+
 streamlit run sdlc_recommender.py
 
 
@@ -70,6 +77,7 @@ The app is deployed using Streamlit Cloud, which offers: Free hosting, Automatic
 Once you link your GitHub repo, deployment is automatic.
 
 👥 Contributors
+
 Name	Role
 <Nonso Nnamoko>	Lecturer in Computer Science at Edge Hill University
 Students in Software Engineering Programme
