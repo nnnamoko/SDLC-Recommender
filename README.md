@@ -4,7 +4,9 @@ A teaching-focused decision support tool for selecting Software Development Life
 
 ⚡ Live Demo (Streamlit Cloud)
 
-👉 https://<your-streamlit-url>
+👉 https://<https://sdlc-recommender-nn.streamlit.app/
+<img width="1291" height="133" alt="image" src="https://github.com/user-attachments/assets/48143aa6-1406-4695-8087-3b544e7b7f74" />
+>
 (Replace this with your actual URL after deployment)
 
 Try the fully interactive version directly in your browser — no installation required.
