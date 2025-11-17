@@ -1,7 +1,7 @@
 # save as sdlc_recommender.py, then run: streamlit run sdlc_recommender.py
 import streamlit as st
 
-st.title("SDLC Recommender (Teaching Demo)")
+st.title("SDLC Recommender (EHU Demo)")
 
 req_stability = st.slider("Requirements stability", 0, 10, 5)
 risk_level    = st.slider("Technical/Domain risk", 0, 10, 5)
@@ -46,3 +46,4 @@ st.json({
     "reuse_assets": reuse_assets,
     "emphasis_on_VV": parallel_test
 })
+
