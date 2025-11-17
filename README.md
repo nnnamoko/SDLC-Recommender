@@ -2,8 +2,6 @@
 
 A teaching-focused decision support tool for selecting Software Development Life Cycle models.
 
-<p align="center"> <img src="https://via.placeholder.com/600x180.png?text=SDLC+Recommender+Tool+%7C+Teaching+Demo" alt="Project Logo"/> </p>
-
 ⚡ Live Demo (Streamlit Cloud)
 
 👉 https://<your-streamlit-url>
@@ -134,8 +132,8 @@ Once you link your GitHub repo, deployment is automatic.
 
 👥 Contributors
 Name	Role
-<Your Name>	Lead Developer & Module Instructor
-Students in Advanced Software Engineering	Feedback & Testing
+<Nonso Nnamoko>	Lecturer in Computer Science at Edge Hill University
+Students in Software Engineering Programme
 Streamlit Community	Open-source components
 📬 Contact & Feedback
 
@@ -145,8 +143,8 @@ Open an issue
 
 Submit a pull request
 
-Or email: <your-email>
+Or email: <nonsonnamoko@yahoo.com>
 
 📜 License
 
-This project is licensed under the MIT License — feel free to use, modify, and distribute.
+This project is licensed under the GNU License — feel free to use, modify, and distribute.
