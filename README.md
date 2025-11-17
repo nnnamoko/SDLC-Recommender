@@ -31,9 +31,9 @@ Each recommendation includes a justification explaining why the model fits the s
 
 1️⃣ Clone the repository
 
-git clone https://github.com/nnamoko/SDLC-Recommender.git
-
-cd SDLC-Recommender.git
+```bash
+git clone https://github.com/nnnamoko/SDLC-Recommender.git
+cd SDLC-Recommender
 
 2️⃣ (Optional) Create a virtual environment
 
