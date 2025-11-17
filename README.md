@@ -12,10 +12,13 @@ Try the fully interactive version directly in your browser — no installation r
 <p align="left"> <img src="https://img.shields.io/badge/Python-3.10+-blue" /> <img src="https://img.shields.io/badge/Streamlit-Enabled-red" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen" /> <img src="https://img.shields.io/badge/License-GNU-yellow" /> </p>
 
 📁 Repository Contents
-File	Description
-sdlc_recommender.py	Main Streamlit application (interactive UI + logic).
-requirements.txt	Python dependencies needed to run the app locally.
-README.md	Project documentation.
+
+| File                      | Description                                           |
+|---------------------------|-------------------------------------------------------|
+| **sdlc_recommender.py**   | Main Streamlit application (interactive UI + logic).  |
+| **requirements.txt**      | Python dependencies needed to run the app locally.    |
+| **README.md**             | Project documentation.                                |
+
 
 🧠 What This Tool Does
 
