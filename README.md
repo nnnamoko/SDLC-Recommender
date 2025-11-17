@@ -9,7 +9,7 @@ A teaching-focused decision support tool for selecting Software Development Life
 Try the fully interactive version directly in your browser — no installation required.
 
 🏷️ Badges
-<p align="left"> <img src="https://img.shields.io/badge/Python-3.10+-blue" /> <img src="https://img.shields.io/badge/Streamlit-Enabled-red" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen" /> <img src="https://img.shields.io/badge/License-MIT-yellow" /> </p>
+<p align="left"> <img src="https://img.shields.io/badge/Python-3.10+-blue" /> <img src="https://img.shields.io/badge/Streamlit-Enabled-red" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen" /> <img src="https://img.shields.io/badge/License-GNU-yellow" /> </p>
 
 📁 Repository Contents
 File	Description
@@ -34,23 +34,30 @@ Each recommendation includes a justification explaining why the model fits the s
 ```bash
 git clone https://github.com/nnnamoko/SDLC-Recommender.git
 cd SDLC-Recommender
+```
+
 
 2️⃣ (Optional) Create a virtual environment
 
+```bash
 python -m venv venv
 
 source venv/bin/activate     # macOS/Linux
 
 venv\Scripts\activate        # Windows
+```
 
 3️⃣ Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 4️⃣ Run the app
 
+```bash
 streamlit run sdlc_recommender.py
-
+```
 
 The app will open automatically in your browser.
 
@@ -62,6 +69,7 @@ This tool supports teaching in Software Engineering. It helps students understan
 
 Internally, the tool uses a transparent rule-based system:
 
+```python
 if safety_critical:
     return "V-Model"
 if high_risk:
@@ -69,6 +77,8 @@ if high_risk:
 if unclear_requirements and high_client_availability:
     return "Prototyping"
 # …and so on
+```
+
 
 
 This makes the logic easy for students to follow and discuss.
@@ -81,12 +91,12 @@ Once you link your GitHub repo, deployment is automatic.
 
 👥 Contributors
 
-Name	Role
-Nonso Nnamoko	Lecturer in Computer Science at Edge Hill University
+| Name                                          | Role                               |
+|-----------------------------------------------|------------------------------------|
+| **Dr Nonso Nnamoko**                          | SL in Computer Science             |
+| **Students in Software Engineering**          | Feedback & Testing                 |
+| **Streamlit Community**                       | Open-source components             |
 
-Students in Software Engineering Programme
-
-Streamlit Community	Open-source components
 
 📬 Contact & Feedback
 
@@ -96,7 +106,7 @@ Open an issue
 
 Submit a pull request
 
-Or email: <nonsonnamoko@yahoo.com>
+Or email: nonsonnamoko@yahoo.com
 
 📜 License
 
