@@ -32,12 +32,15 @@ Each recommendation includes a justification explaining why the model fits the s
 1️⃣ Clone the repository
 
 git clone https://github.com/nnamoko/SDLC-Recommender.git
+
 cd SDLC-Recommender.git
 
 2️⃣ (Optional) Create a virtual environment
 
 python -m venv venv
+
 source venv/bin/activate     # macOS/Linux
+
 venv\Scripts\activate        # Windows
 
 3️⃣ Install dependencies
@@ -79,9 +82,12 @@ Once you link your GitHub repo, deployment is automatic.
 👥 Contributors
 
 Name	Role
-<Nonso Nnamoko>	Lecturer in Computer Science at Edge Hill University
+Nonso Nnamoko	Lecturer in Computer Science at Edge Hill University
+
 Students in Software Engineering Programme
+
 Streamlit Community	Open-source components
+
 📬 Contact & Feedback
 
 Have suggestions or want to contribute?
